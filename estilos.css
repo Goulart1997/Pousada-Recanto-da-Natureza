@@ -36,7 +36,7 @@ nav ul{
         right: 0;,
         display: inline;
 
-        text-shadow:0px 5px 10px red;
+    text-shadow:0px 5px 10px red;
 }
 .Fotopousadagrande{
     width: 80%;
@@ -123,6 +123,7 @@ section h3{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    
 }
 footer{
     background-color: green;
@@ -149,6 +150,7 @@ article h2{
 .hospe{
     color: red;
     font-style: italic;
+    font-size: 28px;
 }
 .mapa{
     text-align: center;
@@ -156,5 +158,21 @@ article h2{
 .abaixo{
     font-size: 15px;
     margin-top: 20px;
+    
     color: green;
+}
+.servic{
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-size: 28px;
+}
+.oferecidos{
+    text-align: center;
+}
+div img{
+    width: 45%;
+    height: 50%;
+  
+
 }
