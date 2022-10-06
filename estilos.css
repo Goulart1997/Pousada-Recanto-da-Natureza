@@ -1,65 +1,78 @@
-body{
+body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #D3D3D3;
 }
-header, article, section,footer{
+
+header,
+article,
+section,
+footer {
     width: 80%;
     margin: auto;
 }
-h1 , h2 {
+
+h1,
+h2 {
     margin: 0%;
     text-align: center;
     margin-top: 10px;
 }
+
 article h2 {
     text-align: center;
     color: red;
 
 }
 
-header{
+header {
     width: 80%;
     margin: auto;
     position: relative;
-    
+
 }
-p, li {
+
+p,
+li {
     font-size: 1.2em;
 }
 
 
 
 
-nav ul{
+nav ul {
     position: absolute;
     top: 25px;
-        right: 0;,
-        display: inline;
+    right: 0;
+    
+    display: inline;
 
-    text-shadow:0px 5px 10px red;
+    text-shadow: 0px 5px 10px red;
 }
-.Fotopousadagrande{
+
+.Fotopousadagrande {
     width: 80%;
     height: 50%;
 }
-.imglogo{
+
+.imglogo {
     width: 10%;
     height: 0%;
 }
-#hospedagens p{
+
+#hospedagens p {
     font-size: 25px;
     text-align: center;
 }
 
-h1 img{
+h1 img {
     margin-top: 10px;
 }
-    
-    
 
 
-    
-    
+
+
+
+
 
 
 
@@ -68,112 +81,150 @@ nav ul li {
     display: inline;
     margin-left: 15px;
 }
-nav ul li a{
+
+nav ul li a {
     text-transform: uppercase;
     color: black;
     text-decoration: none;
     font-weight: bold;
 }
+
 nav ul li a:hover {
     color: red;
 }
+
 .box-p {
     color: red;
 
-    
+
 }
-.box-t{
+
+.box-t {
     color: red
 }
-.box-img:hover{
-    transform: scale(2.5) rotate3d(-1,1,0,90deg);
+
+.box-img:hover {
+    transform: scale(2.5) rotate3d(-1, 1, 0, 90deg);
     transition: 3s;
 }
-.box{
+
+.box {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    
+
 }
-h1 , h2 {
+
+h1,
+h2 {
     margin: 0%;
 }
-section h2, h3{
+
+section h2,
+h3 {
     margin-top: 100px;
 }
-section h3{ 
+
+section h3 {
     font-size: 150%;
     text-align: center;
     color: red;
 }
-.quartos{
+
+.quartos {
     text-align: center;
 }
 
 
-#Hospedagens img{
+#Hospedagens img {
     width: 300px;
     margin: 2.5%;
     display: inline;
-   
-    
+
+
 }
-.box{
+
+.box {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     text-align: center;
-    
+
 }
-footer{
+
+footer {
     background-color: green;
     text-align: center;
     margin-top: 100px;
 }
-footer p:hover{  
+
+footer p:hover {
     color: red;
-    cursor: pointer;  
+    cursor: pointer;
 
 }
-.principal{
+
+.principal {
     color: red;
     font-style: italic;
 }
-.local{
+
+.local {
     color: red;
     font-style: italic;
     font-size: 25px;
 }
-article h2{
+
+article h2 {
     color: red;
     font-style: italic;
 }
-.hospe{
+
+.hospe {
     color: red;
     font-style: italic;
     font-size: 28px;
 }
-.mapa{
+
+.mapa {
     text-align: center;
 }
-.abaixo{
+
+.abaixo {
     font-size: 15px;
     margin-top: 20px;
-    
+
     color: green;
 }
-.servic{
+
+.servic {
     text-align: center;
     color: red;
     font-style: italic;
     font-size: 28px;
 }
-.oferecidos{
+
+.oferecidos {
     text-align: center;
 }
-div img{
+
+div img {
     width: 45%;
     height: 50%;
-  
+
+
+}
+
+@media  (max-widht:576px) {
+    body {
+        background-color: aquamrine;
+        font-size: 2VW;
+
+    }
+
+    .Fotopousadagrande {
+        display: none;
+    }
+
 
 }
