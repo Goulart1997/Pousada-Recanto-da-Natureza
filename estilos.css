@@ -215,16 +215,18 @@ div img {
 
 }
 
-@media  (max-widht:576px) {
-    body {
-        background-color: aquamrine;
-        font-size: 2VW;
-
+@media screen and (max-width: 576px) { body{ background-color: cadetblue;
+}
+header img#logo{
+    display: none;
+}
+header img#logo2 {
+    display: none;
     }
-
-    .Fotopousadagrande {
-        display: none;
-    }
-
-
+h1, h2, p, .destaque {
+    color: #fff;
+}
+nav ul li{
+    display: none;
+}
 }
