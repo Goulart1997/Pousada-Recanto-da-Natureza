@@ -142,6 +142,7 @@ footer p:hover{
 .local{
     color: red;
     font-style: italic;
+    font-size: 25px;
 }
 article h2{
     color: red;
